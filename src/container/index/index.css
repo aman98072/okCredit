@@ -1,0 +1,18 @@
+.slider .imgDimension{
+    height : 500px;
+    width : 100%;
+}
+.videoSection {    
+    background: #efecec;
+    padding:90px;
+}
+.iconStyle{
+    font-size: 40px;
+}
+
+.p50{
+    padding: 50px;
+}
+.center {
+    text-align: center;
+}
