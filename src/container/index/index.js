@@ -7,7 +7,7 @@ class Index extends Component {
     render() {
         return (
             <Fragment>
-                <Carousel autoplay className="slider">
+                <Carousel autoplay>
                     <div>
                         <img src={process.env.PUBLIC_URL + "images/banner1.jpg"} className="imgDimension" />
                     </div>
@@ -31,7 +31,7 @@ class Index extends Component {
                             <Col offset={2} span={8}>
                                 <h2>How does it work?</h2>
                                 <p>Install OkCredit for free Register New Account Add customer</p>
-                                <p>Record credit/payment Free SMS to Customer View Account Summary</p>
+                                <p>Record credit/payment Free SMS to Customer View Account Summary. Record credit/payment Free SMS to Customer View Account Summary. Record credit/payment Free SMS to Customer View Account Summary. Record credit/payment Free SMS to Customer View Account Summary. Record credit/payment Free SMS to Customer View Account Summary</p>
                             </Col>
                         </div>
                     </Col>

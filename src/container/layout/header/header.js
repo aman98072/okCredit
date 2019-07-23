@@ -1,8 +1,20 @@
 import React, { Component } from 'react';
 import "./header.css";
+import URLS from "../../../config/config.js";
 import { Row, Col } from 'antd';
 
 class Header extends Component {
+
+  menu = () => {
+    let menuData = '';
+    let headerMenu = URLS.B_L_header;
+    Object.keys(headerMenu).forEach( function(index) {      
+      menuData += "<li><h2>" + headerMenu[index].name + "</h2></li>";      
+    });
+    
+    return menuData;
+  }
+
   render() {
     return (
       <div>
@@ -17,8 +29,11 @@ class Header extends Component {
             </Col>
             <Col offset={8} span={11}>
               <ul>
+                {this.menu()}
                 <li><h2>About US</h2></li>
                 <li><h2>Contact US</h2></li>
+                <li><h2>Login</h2></li>
+                <li><h2>Register</h2></li>
               </ul>
             </Col>
           </Col>

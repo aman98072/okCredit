@@ -1,18 +1,30 @@
-.slider .imgDimension{
-    height : 500px;
-    width : 100%;
-}
-.videoSection {    
-    background: #efecec;
-    padding:90px;
-}
-.iconStyle{
-    font-size: 40px;
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 500px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
 }
 
-.p50{
-    padding: 50px;
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+.imgDimension {
+    width :100%;
+}
+
+.videoSection {
+  background: #efecec;
+  padding: 90px;
+}
+.iconStyle {
+  font-size: 40px;
+}
+
+.p50 {
+  padding: 50px;
 }
 .center {
-    text-align: center;
+  text-align: center;
 }
